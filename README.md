@@ -1,6 +1,6 @@
-# Infraestructura GitOps con Terraform/OpenTofu, Kind, Crossplane y Argo CD
+# Infraestructura GitOps con Terraform / OpenTofu, Kind, Crossplane y Argo CD
 
-Este proyecto despliega una infraestructura en AWS utilizando Terraform/OpenTofu. Incluye la creación de una red VPC, una instancia EC2 y la configuración automatizada de un clúster Kubernetes local con Kind, listo para gestionar infraestructura como código con Crossplane y aplicaciones con Argo CD.
+Este proyecto despliega una infraestructura en AWS utilizando Terraform / OpenTofu. Incluye la creación de una red VPC, una instancia EC2 y la configuración automatizada de un clúster Kubernetes local con Kind, listo para gestionar infraestructura como código con Crossplane y aplicaciones con Argo CD.
 
 ## Componentes principales
 
@@ -62,4 +62,4 @@ Usuario: admin
 Contraseña: nombre del pod argocd-server (obtenido con kubectl).
 ```    
 
-Ya puedes crea una aplicación en Argo CD apuntando a un repositorio o aplicar tus propios manifiestos con Crossplane.
+Ya puedes crear una aplicación en Argo CD apuntando a un repositorio o aplicar tus propios manifiestos con Crossplane.
